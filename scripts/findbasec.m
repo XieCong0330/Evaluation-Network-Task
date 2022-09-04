@@ -1,8 +1,8 @@
 function [count,cycles] = findbasec(b)
 % [count,cycles] = findbasec(b),for 3 by N matrix, returns the number of
 % base circles of ENT(count) and the component of each circle(cycles)
-% specifically, given the ENT yeilds a fully connected graph for each
-% participant, the base circles are typiclly consist three nodes
+% specifically, given the ENT yields a fully connected graph for each
+% participant, the base circles are typically consist three nodes
 c = zeros(12,12);
 for i = 1:size(b,1)
     c(b(i,1),b(i,2)) = b(i,3);
