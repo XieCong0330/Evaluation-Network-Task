@@ -1,7 +1,7 @@
 function [mean_out,mean_in] = degree_ENT(b)
 % [mean_out,mean_in] = degree_ENT(b), for 3 by N matrix, returns the mean
-% values of out- & in- degrees of four high creative anwsers,four medium creative
-% answers, and four low creative anwsers;
+% values of out- & in- degrees of four high creative answers, four medium creative
+% answers, and four low creative answers;
 G = digraph(b(:,1),b(:,2),b(:,3));
 outd = outdegree(G);
 ind = indegree(G);
