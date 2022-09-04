@@ -1,4 +1,4 @@
-% for one subject, to quantifiy his or her ENT perfromance 
+% for one subject, to quantify his or her ENT performance 
 k = all_result.res_k;
 c = all_result.res_c;
 n = all_result.res_n;
