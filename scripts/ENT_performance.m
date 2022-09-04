@@ -1,8 +1,8 @@
 function [sensi, stab, corr_h,corr_l] = ENT_performance(raw)
-% [sensitivity, stability, correctness] = ENT_performance(raw) is the
+% [sensi, stab, corr_h,corr_l] = ENT_performance(raw) is the
 % calculation of the sensitivity, stability, and correctness of the ENT,
 % raw is a N by N matrix (12 specifically for ENT) with the value of the
-% diagonal elements are 0 or close to 0 (otherwise the data is flawed).
+% diagonal elements are 0 or close to 0 (otherwise the data is flawed), which is derived from ENT
 % sensi: the sensitivity of creativity (as manifested by Shannon Entropy of judgments)
 % stab: stability of evaluation criteria (as manifested by the shortest circles of the network)
 % corr_h: correctness of the judgements (as manifested by the out-degrees of high creative anwsers)
