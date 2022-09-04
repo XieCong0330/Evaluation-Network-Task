@@ -1,4 +1,5 @@
 % for one subject, to quantify his or her ENT performance 
+% k denotes the raw data in the knife block, c denotes the raw data in the chopsticks block, n denotes the raw data in the newspaper block
 k = all_result.res_k;
 c = all_result.res_c;
 n = all_result.res_n;
